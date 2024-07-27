@@ -24,7 +24,6 @@ Ans.
    more complex and organized design systems, without having to fall back to some “hacky ways” that we were using in the past.
 
 
-
    When to use CSS Grid
    a. When you have a complex design to implement. The two-dimensional layout system here is perfect to create a complex design. We can use it in our favor to create more 
       complex and maintainable web pages
