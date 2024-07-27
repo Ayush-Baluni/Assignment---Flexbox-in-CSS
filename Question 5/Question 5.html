@@ -1,0 +1,111 @@
+<!-- Q. Build a clone of the IRCTC Ticker booking page. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+    <link rel="stylesheet" href="Question 5.css">
+</head>
+<body>
+    <div id = "container">
+        <header id = "grid-head">
+            <div class = "head-item logos-img">
+                <img class = "logos" src = "https://s3-alpha-sig.figma.com/img/bbf7/d6b5/9dee93e0fb1008416bfeed8b4a476357?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U6JkTTb08sQpoDcU8MVnnb8Ybhut1Fqku6~dtoC0PCm6640Ax4c-Nyhukae6ux5VxzhC78aBoS~LaLu5QK~jv14b-zmnPu1ONWj73QSK~OvXtfYoHv7Fv1GbHxuSqe2RNOuSsLKgMwYe60wiWla8GHTywPrUdvxp~TeAeuGv0Jmi8mn73yI3qgVGVqdVi6g6iItqPSLw08TNMFuU8yv21zcHzt2BHelPzgOa9ouO8pTycchncqsPffhoY-LHJTbYEBUqARdstSFoIMRffAK8doCtBzbokDaKnfjOiXpHd59VCtn9u0jIBMBP1ipQFFC6EwGNOsaao3xDisJ0D41iUA__">
+                <img class = "logos" src = "https://s3-alpha-sig.figma.com/img/fb40/f771/a70eed9839f37e1e0d975e45a1ead05f?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bn~ChK6qKywJFE3IYIPazPgQWcXLhovHLfgfvMYCvn7uF7MHp2-gi2CFHECkQJm3un9dv7oU0X1tr6SR1vNmGX0moYVo~sFe2W8vKyIPZSduf5gp6-ifVbsYCSgmDZno4tC4nFynnXi5WjMZw~XSV38pqlKSXPrj-1d8x1gN8sFHCqXLobmVtoy8Rfy0Ge1MIpA78uCz4czdFzwm4CiBP7~3-2wjwjEIPaPWZQF4O4JF51Aw8mCZrm1esv3d-YChc-FglZNEchOYbFWL20CdOTrI0fXFcYuHm49EKCKIGkY7szunPE47nnzz-bt2oCQXPOo6y5uA2sk2IZ2bfalDsA__">
+            </div>
+            <div class = "head-item head-links">
+                <div id = "links-grid">
+                    <div>
+                        <a href = "" class = "links-grid-items">Ask Diksha</a>
+                    </div>
+                    <div>
+                        <a href = "" class = "links-grid-items">Contact Us</a>
+                    </div>
+                    <div>
+                        <a href = "" class = "links-grid-items">Alerts</a>
+                    </div>
+                    <div>
+                        <a href = "" class = "links-grid-items login">Login</a>
+                    </div>
+                    <div>
+                        <a href = "" class = "links-grid-items register">Register</a>
+                    </div>
+                    <div>
+                        <a href = "" class = "links-grid-items agent">Agent </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- <main> -->
+            <nav id = "nav">
+                <nav id = "nav1">
+                    <h1 style = "font-size: 32px">Indian Railways</h1>
+                    <span style = "color: green; font-size: 20px">Safety</span>&nbsp;&nbsp;&nbsp;<span style = "color: orange; font-size: 20px">Security</span>&nbsp;&nbsp;&nbsp;<span style = "color:darkblue; font-size: 20px">Punctuality</span>
+                </nav>
+                <br><br><br>
+                
+                <div id = "main-1">
+                    <div class = "main-1-item book-ticket">
+                        <img class = "main-1-logos" src = "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20enable-background%3D%22new%200%200%20512%20512%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20d%3D%22M505.081%2C196.611c3.82%2C0%2C6.919-3.097%2C6.919-6.919V123.56c0-18.536-15.081-33.615-33.617-33.615H33.613%0D%0A%09C15.077%2C89.945%2C0%2C105.024%2C0%2C123.56v66.133c0%2C3.822%2C3.099%2C6.919%2C6.919%2C6.919c32.748%2C0%2C59.387%2C26.642%2C59.387%2C59.387%0D%0A%09s-26.64%2C59.387-59.387%2C59.387c-3.82%2C0-6.919%2C3.097-6.919%2C6.919v66.135c0%2C18.536%2C15.077%2C33.615%2C33.613%2C33.615h444.77%0D%0A%09c18.536%2C0%2C33.617-15.079%2C33.617-33.615v-66.135c0-3.822-3.099-6.919-6.919-6.919c-32.748%2C0-59.387-26.642-59.387-59.387%0D%0A%09S472.333%2C196.611%2C505.081%2C196.611z%20M431.856%2C255.999c0%2C38.043%2C29.162%2C69.403%2C66.306%2C72.901v59.541%0D%0A%09c0%2C10.905-8.874%2C19.777-19.779%2C19.777H174.297V375.94c0-3.822-3.099-6.919-6.919-6.919s-6.919%2C3.097-6.919%2C6.919v32.277H33.613%0D%0A%09c-10.905%2C0-19.775-8.872-19.775-19.777V328.9c37.144-3.498%2C66.306-34.858%2C66.306-72.901s-29.162-69.403-66.306-72.901V123.56%0D%0A%09c0-10.905%2C8.869-19.777%2C19.775-19.777H160.46v32.275c0%2C3.822%2C3.099%2C6.919%2C6.919%2C6.919s6.919-3.097%2C6.919-6.919v-32.275h304.086%0D%0A%09c10.905%2C0%2C19.779%2C8.872%2C19.779%2C19.777v59.538C461.018%2C186.596%2C431.856%2C217.956%2C431.856%2C255.999z%20M174.297%2C234.92v42.158%0D%0A%09c0%2C3.822-3.099%2C6.919-6.919%2C6.919s-6.919-3.097-6.919-6.919V234.92c0-3.822%2C3.099-6.919%2C6.919-6.919%0D%0A%09C171.198%2C228.001%2C174.297%2C231.098%2C174.297%2C234.92z%20M174.297%2C305.429v42.162c0%2C3.822-3.099%2C6.919-6.919%2C6.919%0D%0A%09s-6.919-3.097-6.919-6.919v-42.162c0-3.822%2C3.099-6.919%2C6.919-6.919C171.198%2C298.51%2C174.297%2C301.607%2C174.297%2C305.429z%0D%0A%09%20M174.297%2C164.409v42.16c0%2C3.822-3.099%2C6.919-6.919%2C6.919s-6.919-3.097-6.919-6.919v-42.16c0-3.822%2C3.099-6.919%2C6.919-6.919%0D%0A%09C171.198%2C157.49%2C174.297%2C160.587%2C174.297%2C164.409z%20M378.973%2C170.377c0%2C3.822-3.099%2C6.919-6.919%2C6.919H249.82%0D%0A%09c-3.82%2C0-6.919-3.097-6.919-6.919s3.099-6.919%2C6.919-6.919h122.234C375.874%2C163.458%2C378.973%2C166.555%2C378.973%2C170.377z%0D%0A%09%20M378.973%2C227.458c0%2C3.822-3.099%2C6.919-6.919%2C6.919H249.82c-3.82%2C0-6.919-3.097-6.919-6.919s3.099-6.919%2C6.919-6.919h122.234%0D%0A%09C375.874%2C220.539%2C378.973%2C223.636%2C378.973%2C227.458z%20M378.973%2C284.539c0%2C3.822-3.099%2C6.919-6.919%2C6.919H249.82%0D%0A%09c-3.82%2C0-6.919-3.097-6.919-6.919c0-3.822%2C3.099-6.919%2C6.919-6.919h122.234C375.874%2C277.62%2C378.973%2C280.717%2C378.973%2C284.539z%0D%0A%09%20M378.973%2C341.62c0%2C3.822-3.099%2C6.919-6.919%2C6.919H249.82c-3.82%2C0-6.919-3.097-6.919-6.919c0-3.822%2C3.099-6.919%2C6.919-6.919h122.234%0D%0A%09C375.874%2C334.702%2C378.973%2C337.798%2C378.973%2C341.62z%22%2F%3E%3C%2Fsvg%3E"> <span>Book Ticket</span>
+                    </div>
+                    <div class = "main-1-item pnr-status">
+                        <img class = "main-1-logos" src = "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M0%208.51%205.48%2014%2016%203.49%2014.49%202l-9.01%209-3.99-3.99z%22%2F%3E%3C%2Fsvg%3E">PNR Status
+                    </div>
+                    <div class = "main-1-item charts/vacancy">
+                        <img class = "main-1-logos" src = "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20data-name%3D%22Layer%201%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cpath%20d%3D%22M6%2C59H62a1%2C1%2C0%2C0%2C0%2C0-2H51V37h1.77a1%2C1%2C0%2C0%2C0%2C1-1V28a1%2C1%2C0%2C0%2C0-1-1H51V3.75a1%2C1%2C0%2C0%2C0-2%2C0V27H47.23a1%2C1%2C0%2C0%2C0-1%2C1v8a1%2C1%2C0%2C0%2C0%2C1%2C1H49V57H43V47.75h1.77a1%2C1%2C0%2C0%2C0%2C1-1v-8a1%2C1%2C0%2C0%2C0-1-1H43v-28a1%2C1%2C0%2C0%2C0-2%2C0v28H39.23a1%2C1%2C0%2C0%2C0-1%2C1v8a1%2C1%2C0%2C0%2C0%2C1%2C1H41V57H35V27.76h1.77a1%2C1%2C0%2C0%2C0%2C1-1v-8a1%2C1%2C0%2C0%2C0-1-1H35v-2a1%2C1%2C0%2C0%2C0-2%2C0v2H31.23a1%2C1%2C0%2C0%2C0-1%2C1v8a1%2C1%2C0%2C0%2C0%2C1%2C1H33V57H27V37.89h1.77a1%2C1%2C0%2C0%2C0%2C1-1v-8a1%2C1%2C0%2C0%2C0-1-1H27V22.75a1%2C1%2C0%2C0%2C0-2%2C0v5.11H23.23a1%2C1%2C0%2C0%2C0-1%2C1v8a1%2C1%2C0%2C0%2C0%2C1%2C1H25V57H19V47.75h1.77a1%2C1%2C0%2C0%2C0%2C1-1v-8a1%2C1%2C0%2C0%2C0-1-1H19v-8a1%2C1%2C0%2C0%2C0-2%2C0v8H15.23a1%2C1%2C0%2C0%2C0-1%2C1v8a1%2C1%2C0%2C0%2C0%2C1%2C1H17V57H7V6A1%2C1%2C0%2C0%2C0%2C5%2C6V58A1%2C1%2C0%2C0%2C0%2C6%2C59ZM48.23%2C29h3.53v6H48.23Zm-8%2C10.74h3.53v6H40.23Zm-8-20h3.53v6H32.23Zm-8%2C10.13h3.53v6H24.23Zm-8%2C9.86h3.53v6H16.23Z%22%2F%3E%3Cpath%20d%3D%22M62%2C61H3V2A1%2C1%2C0%2C0%2C0%2C1%2C2V62a1%2C1%2C0%2C0%2C0%2C1%2C1H62a1%2C1%2C0%2C0%2C0%2C0-2Z%22%2F%3E%3C%2Fsvg%3E">Charts/Vacancy
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div id = "main-2">
+                    
+                    <div class = "main-2-item-s start">
+                        <img class = "main-2-logos-1" src = "train-station.png"> <sup>From<img style = "width:10px" src = "down-arrow.png"></sup> KSR - BANGALORE
+                    </div>
+
+                    <div class = "main-2-item-s mid">
+                        <center><img class = "main-2-logos-1" style = "width:30px; height: 30px" src = "double-arrow.png"> </center>
+                    </div>
+
+                    <div class = "main-2-item-s end">
+                        <img class = "main-2-logos-1" src = "train-station.png"> <sup>To<img style = "width:10px" src = "down-arrow.png"></sup> KSD - KASARAGOD 
+                    </div>
+
+                    <div class = "main-2-item-n start">
+                        <img class = "main-2-logos-2" src = "calendar.png"> <sup>Date<img style = "width:10px" src = "down-arrow.png"></sup> 1 August 23 &nbsp; <sub style = "font-size: 7;">Tuesday</sub>
+                    </div>
+
+                    <div class = "main-2-item-n mid">
+                        <sup>Class<img style = "width:10px" src = "down-arrow.png"></sup> <span>3A</span>  
+                    </div>
+
+                    <div class = "main-2-item-n end">
+                        <img class = "main-2-logos-2" src = "seats.png"> <sup>Seat Type<img style = "width:10px" src = "down-arrow.png"></sup> 1 TATKAL &nbsp; <sub style = "font-size: 7;">AC 3Tier</sub>
+                    </div>
+
+                </div>
+
+                <br><br><br>
+
+                <button class="green-button" onclick="searchTrain()">
+                    Search Train →
+                </button>
+                
+
+            </nav>
+            
+
+            <aside>
+                <img id = "train" src = "https://s3-alpha-sig.figma.com/img/f0b6/593e/8ed12a7f02e29fd012b3cf6cbfb90252?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RTaUifUdFjsRP-QgSNwN-VhhG5P~3b5iYLJmKyAmPQcoPA5aBw0ATTH45sxUCNbbwznhIpsfbD4JnMWQVLJ6Bu-3I4MakkPUqomZ7OB2Yw3bnmbr66WlmigrfV-SHR-xrw9eMpAJpILqE2uIPLMGuCdERfNHzPB3CkhWwGa0Pfg7u1jGmE-dq8EzrYa3vW5uKN~67Sa6OQKMQpYtJJ08rfH6heDQYd8HVlmnND4zN~Kd3~X4gVW0rng16VU0SAQthHZJga0fLXtFXb0718towEWflX7T9hTRinlw-4OM-hEg1oEAkk50Fdx53aoZA2GitQ9LTPu1ZNTxzUjdonA2ug__">
+            </aside>
+        <!-- </main> -->
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Section</title>
+
+    <style>
+        body {
+            background-color: #F4F2Fd;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 25px 50px 25px;
+        }
+        
+        .plan {
+            background-color: white;
+            color: #111c50;
+            height: 500px;
+            width: 245px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+            padding: 30px 55px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #I {
+            font-size: 22px;
+            padding-left: 20px;
+            list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(17, 28, 80, 1);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"></path></svg>');
+        }
+        
+        #II {
+            font-size: 22px;
+            padding-left: 20px;
+            list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"></path></svg>');
+        }
+        
+        #III{
+            font-size: 22px;
+            padding-left: 20px;
+            list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(17, 28, 80, 1);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"></path></svg>');
+        }
+        
+        #one {
+            background-color: rgb(17, 28, 80);
+            color: white;
+            border: none;
+            padding: 20px 20px;
+            cursor: pointer;
+            border-radius: 110px;
+            font-size: 20px;
+        }
+        
+        #two {
+            background-color: white;
+            color: rgb(17, 28, 80);
+            border: none;
+            padding: 20px 20px;
+            cursor: pointer;
+            border-radius: 110px;
+            font-size: 20px;
+        }
+        
+        #three {
+            background-color: rgb(17, 28, 80);
+            color: white;
+            border: none;
+            padding: 20px 20px;
+            cursor: pointer;
+            border-radius: 110px;
+            font-size: 20px;
+        }        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="plan" id="I">
+            <div style = "line-height: 0;">
+                <p style = "font-size:40px;"><b>Free Plan</b></p>
+                <p style = "font-size:22px;">For personal</p>
+            </div>
+            <div>
+                <p style = "font-size:50px;"><b>$0</b></p>
+            </div>
+            <ul class="lists">
+                <li>1 user</li>
+                <li>4 Web mails</li>
+                <li>Responsive Website</li>
+                <li>Free SSL</li>
+            </ul>
+            <button id = "one">Subscribe now</button>
+        </div>
+
+        <div class="plan" id="II" style = "background-color: rgb(17,28,80); color:white ">
+            <div style = "line-height: 0;">
+                <p style = "font-size:40px;"><b>Basic Plan</b></p>
+                <p style = "font-size:22px;">For small business</p>
+            </div>
+            <div>
+                <p style = "font-size:50px;"><b>$29</b></p>
+            </div>
+            <ul class="lists">
+                <li>4 users</li>
+                <li>10 Web mails</li>
+                <li>Responsive Website</li>
+                <li>Free SSL</li>
+            </ul>
+            <button id = "two">Subscribe now</button>
+        </div>
+
+        <div class="plan" id="III">
+            <div style = "line-height: 0;">
+                <p style = "font-size:40px;"><b>Pro Plan</b></p>
+                <p style = "font-size:22px;">For enterprise</p>
+            </div>
+            <div>
+                <p style = "font-size:50px;"><b>$49</b></p>
+            </div>
+            <ul class="lists">
+                <li>Unlimited users</li>
+                <li>Unlimited Web mails</li>
+                <li>Responsive Website</li>
+                <li>Free SSL + SEO</li>
+            </ul>
+            <button id = "three">Subscribe now</button>
+        </div>
+    </div>
+
+</body>
+</html>
